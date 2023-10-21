@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(meeting.png);
+    background-size: cover;
+}
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+    margin: 70px auto;
+    background-color: #f0d3f7;
+    max-width: 400px;
+    margin-left: 550px;
+    width:90%;
+    border: 2px solid black;
+    padding: 20px;
+
+    
+
+
+    
+}
+textarea {
+   
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+#fourth{
+    margin-left: 20px;
+}
+button{
+    margin-top: 10px;
+    height: 30px;
+    width: 60px;
+    margin-right: 100px;
+    background-color: aquamarine;
+    
+    
+}
+button:hover{
+    background-color: cadetblue;
+    transition: all 1s;
+}
+input{
+    height: 20px;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    form {
+        width: 90%; 
+        margin: 20px auto; 
+}
+}
+
+
+
+
+
